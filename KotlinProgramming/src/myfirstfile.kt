@@ -1,13 +1,11 @@
 fun main(args : Array<String>){
+    var personObj = Person()
+    personObj.name = "Steve"
 
-    var myNumber = 10
-    var myDecimal = 1.0
+    print("The name of the person is ${personObj.name}")
+}
 
-    var myString : String
-    myString = "Hello World"
-    myString = "Another World"
+class Person{
 
-    val myAnotherStr = "My Constant string value"
-
-    println(myNumber)
+    var name: String = ""
 }
